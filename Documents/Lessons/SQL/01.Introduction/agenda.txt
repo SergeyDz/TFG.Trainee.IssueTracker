@@ -1,0 +1,4 @@
+1. Relation databases 
+2. Management Studio for SQL 
+3. Tables and Views
+4. dbo and sys schemas
