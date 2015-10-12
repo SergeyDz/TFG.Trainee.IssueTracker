@@ -1,6 +1,3 @@
-12.10.2015 
-10:37
------ C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\00.DDL.CreateDatabase.sql ----- 
 use master
 
 IF  EXISTS (SELECT name FROM sys.databases WHERE name = N'Test')
@@ -10,7 +7,7 @@ alter database [Test] set single_user with rollback immediate
 
 DROP DATABASE [Test]
 end
-
+GO
 
 /****** Object:  Database [Test]    Script Date: 12.10.2015 10:15:39 ******/
 CREATE DATABASE [Test]
@@ -19,11 +16,4 @@ CREATE DATABASE [Test]
 ( NAME = N'Test', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL12.MSSQLSERVER\MSSQL\DATA\Test.mdf' , SIZE = 3072KB , MAXSIZE = UNLIMITED, FILEGROWTH = 1024KB )
  LOG ON 
 ( NAME = N'Test_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL12.MSSQLSERVER\MSSQL\DATA\Test_log.ldf' , SIZE = 1024KB , MAXSIZE = 2048GB , FILEGROWTH = 10%)
-
------ C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\01.DDL.CreateSchemas.sql ----- 
-create schema Common 
-
-create schema Request
-
-create schema Domain
-
+GO

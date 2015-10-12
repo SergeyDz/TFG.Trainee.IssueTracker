@@ -5,9 +5,7 @@ set sourceServer=sdzyuban-pc
 set sourceDB=Test
 
 
-:: !Existing Form will be overridden with new meta data. 
-:: WARNING: All configuration inside existing Open form will be LOST !
-set targetFormName="Test Form Nutter"
+set targetFormName="Test Form"
 
 
 set rootDirectory=%~dp0
