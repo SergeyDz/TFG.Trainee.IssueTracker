@@ -1,0 +1,5 @@
+Mon 10/12/2015 
+10:07 AM
+----- C:\Users\sdzyuban\Documents\GitHub\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\00.DDL.CreateSchemas.sql ----- 
+'"C:\Program Files\Microsoft SQL Server\110\Tools\Binn\SQLCMD.EXE"' is not recognized as an internal or external command,
+operable program or batch file.
