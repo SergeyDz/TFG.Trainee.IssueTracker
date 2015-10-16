@@ -25,35 +25,26 @@ TIME /T >>log.txt
 TIME /T >>err.txt
                                                                    
 
-for  %%f IN ("%rootDirectory%??.DDL.*.sql") do (echo %%f 
+for  %%f IN ("%rootDirectory%/01.DDL/*.sql") do (echo %%f 
 echo ----- %%f ----- >>log.txt
 echo ----- %%f ----- >>err.txt
 IF %%~zf GTR 2 "%isql%" -S %sourceServer%  -d %sourceDB% -r1 -e  -i "%%f" >>log.txt  2>>err.txt)
 if not "%errorlevel%" == "0" set BatchExitCode=%errorlevel%
 ::pause
 
-for  %%f IN ("%rootDirectory%??.Common.*.sql") do (echo %%f 
+for  %%f IN ("%rootDirectory%/02.Domain/*.sql") do (echo %%f 
 echo ----- %%f ----- >>log.txt
 echo ----- %%f ----- >>err.txt
 IF %%~zf GTR 2 "%isql%" -S %sourceServer%  -d %sourceDB% -r1 -e  -i "%%f" >>log.txt  2>>err.txt)
 if not "%errorlevel%" == "0" set BatchExitCode=%errorlevel%
 ::pause
 
-for  %%f IN ("%rootDirectory%??.Domain.*.sql") do (echo %%f 
+for  %%f IN ("%rootDirectory%/03.Sample/*.sql") do (echo %%f 
 echo ----- %%f ----- >>log.txt
 echo ----- %%f ----- >>err.txt
 IF %%~zf GTR 2 "%isql%" -S %sourceServer%  -d %sourceDB% -r1 -e  -i "%%f" >>log.txt  2>>err.txt)
 if not "%errorlevel%" == "0" set BatchExitCode=%errorlevel%
 ::pause
-
-for  %%f IN ("%rootDirectory%??.Request.*.sql") do (echo %%f 
-echo ----- %%f ----- >>log.txt
-echo ----- %%f ----- >>err.txt
-IF %%~zf GTR 2 "%isql%" -S %sourceServer%  -d %sourceDB% -r1 -e  -i "%%f" >>log.txt  2>>err.txt)
-if not "%errorlevel%" == "0" set BatchExitCode=%errorlevel%
-::pause
- 
-
 
 
 
