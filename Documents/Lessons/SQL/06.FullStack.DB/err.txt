@@ -1,7 +1,9 @@
 Mon 10/19/2015 
-09:40 AM
+09:59 AM
 ----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\01.Initial\00.DDL.CreateDatabase.sql ----- 
 Changed database context to 'master'.
+Nonqualified transactions are being rolled back. Estimated rollback completion: 0%.
+Nonqualified transactions are being rolled back. Estimated rollback completion: 100%.
 ----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL\01.DDL.CreateSchemas.sql ----- 
 ----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL\02.DDL.CreateUser.sql ----- 
 ----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL\03.DDL.CreateDepartment.sql ----- 
