@@ -1,5 +1,5 @@
-Mon 10/19/2015 
-09:59 AM
+19.10.2015 
+11:48
 ----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\01.Initial\00.DDL.CreateDatabase.sql ----- 
 ----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL\01.DDL.CreateSchemas.sql ----- 
 ----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL\02.DDL.CreateUser.sql ----- 
@@ -11,10 +11,57 @@ Mon 10/19/2015
 ----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL\05.DDL.CreateMatter.sql ----- 
 ----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL\06.DDL.CreateRequest.sql ----- 
 ----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL\07.DDL.CreateParty.sql ----- 
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL\08.DDL.CreateRoles.sql ----- 
 ----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\03.Domain\00.Common.User.sql ----- 
 
 (1 rows affected)
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\03.Domain\01.Common.Roles.sql ----- 
+
+(3 rows affected)
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\03.Domain\02.Domain.Position.sql ----- 
+
+(3 rows affected)
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\03.Domain\03.Domain.Relation.sql ----- 
+
+(3 rows affected)
 ----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\50.Sample\00.Common.User.sql ----- 
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\50.Sample\00.Request.Request.sql ----- 
+
+(0 rows affected)
+
+(0 rows affected)
+
+(0 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\50.Sample\01.Domain.Office.sql ----- 
+
+(0 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\50.Sample\02.Domain.Department.sql ----- 
+
+(1 rows affected)
 
 (1 rows affected)
 

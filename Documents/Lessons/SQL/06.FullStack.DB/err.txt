@@ -1,5 +1,5 @@
-Mon 10/19/2015 
-09:59 AM
+19.10.2015 
+11:48
 ----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\01.Initial\00.DDL.CreateDatabase.sql ----- 
 Changed database context to 'master'.
 Nonqualified transactions are being rolled back. Estimated rollback completion: 0%.
@@ -14,5 +14,12 @@ Nonqualified transactions are being rolled back. Estimated rollback completion: 
 ----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL\05.DDL.CreateMatter.sql ----- 
 ----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL\06.DDL.CreateRequest.sql ----- 
 ----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL\07.DDL.CreateParty.sql ----- 
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL\08.DDL.CreateRoles.sql ----- 
 ----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\03.Domain\00.Common.User.sql ----- 
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\03.Domain\01.Common.Roles.sql ----- 
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\03.Domain\02.Domain.Position.sql ----- 
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\03.Domain\03.Domain.Relation.sql ----- 
 ----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\50.Sample\00.Common.User.sql ----- 
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\50.Sample\00.Request.Request.sql ----- 
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\50.Sample\01.Domain.Office.sql ----- 
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\50.Sample\02.Domain.Department.sql ----- 
