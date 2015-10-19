@@ -1,15 +1,16 @@
-16.10.2015 
-11:32
------ C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\00.DDL.CreateDatabase.sql ----- 
+Mon 10/19/2015 
+09:40 AM
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\01.Initial\00.DDL.CreateDatabase.sql ----- 
 Changed database context to 'master'.
------ C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\01.DDL.CreateSchemas.sql ----- 
------ C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL.CreateUser.sql ----- 
------ C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\03.DDL.CreateDepartment.sql ----- 
------ C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\03.DDL.CreateOffice.sql ----- 
------ C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\03.DDL.CreatePosition.sql ----- 
------ C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\03.DDL.CreateRelation.sql ----- 
------ C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\05.DDL.CreateClient.sql ----- 
------ C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\05.DDL.CreateMatter.sql ----- 
------ C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\06.DDL.CreateRequest.sql ----- 
------ C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\07.DDL.CreateParty.sql ----- 
------ C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\00.Common.User.sql ----- 
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL\01.DDL.CreateSchemas.sql ----- 
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL\02.DDL.CreateUser.sql ----- 
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL\03.DDL.CreateDepartment.sql ----- 
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL\03.DDL.CreateOffice.sql ----- 
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL\03.DDL.CreatePosition.sql ----- 
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL\03.DDL.CreateRelation.sql ----- 
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL\05.DDL.CreateClient.sql ----- 
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL\05.DDL.CreateMatter.sql ----- 
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL\06.DDL.CreateRequest.sql ----- 
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\02.DDL\07.DDL.CreateParty.sql ----- 
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\03.Domain\00.Common.User.sql ----- 
+----- C:\Projects\git\TFG.Trainee.IssueTracker\Documents\Lessons\SQL\06.FullStack.DB\50.Sample\00.Common.User.sql ----- 

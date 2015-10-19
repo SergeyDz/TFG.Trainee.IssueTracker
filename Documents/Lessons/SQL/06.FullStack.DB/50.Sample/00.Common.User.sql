@@ -1,7 +1,4 @@
-insert Common.[User] (Login, Name) values ('Admin', 'Admin')
-
-declare @adminid int = SCOPE_IDENTITY()
-
+declare @adminid int = (select top 1 Id from Common.[User] where Login = 'Admin')
 insert Common.[User] (Login, Name, CreatedById) values ('smt', 'Smith', @adminid)
 insert Common.[User] (Login, Name, CreatedById) values ('jhn', 'Johnes', @adminid)
 insert Common.[User] (Login, Name, CreatedById) values ('and', 'Andrey', @adminid)

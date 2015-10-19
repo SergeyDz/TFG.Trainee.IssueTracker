@@ -3,6 +3,9 @@
 ::Here is source connection information - Flow Database
 set sourceServer=sdzyuban-pc
 set sourceDB=Test
+set usr=sa
+set pwd=Tsunami9
+
 
 
 set targetFormName="Test Form"
@@ -25,31 +28,32 @@ TIME /T >>log.txt
 TIME /T >>err.txt
                                                                    
 
-for  %%f IN ("%rootDirectory%??.DDL.*.sql") do (echo %%f 
+for  %%f IN ("%rootDirectory%01.Initial\*.*.sql") do (echo %%f 
 echo ----- %%f ----- >>log.txt
 echo ----- %%f ----- >>err.txt
-IF %%~zf GTR 2 "%isql%" -S %sourceServer%  -d %sourceDB% -r1 -e  -i "%%f" >>log.txt  2>>err.txt)
+IF %%~zf GTR 2 "%isql%" -S %sourceServer%  -d master -r1 -U %usr% -P %pwd%  -i "%%f" >>log.txt  2>>err.txt)
 if not "%errorlevel%" == "0" set BatchExitCode=%errorlevel%
 ::pause
 
-for  %%f IN ("%rootDirectory%??.Common.*.sql") do (echo %%f 
+
+for  %%f IN ("%rootDirectory%02.DDL\*.*.sql") do (echo %%f 
 echo ----- %%f ----- >>log.txt
 echo ----- %%f ----- >>err.txt
-IF %%~zf GTR 2 "%isql%" -S %sourceServer%  -d %sourceDB% -r1 -e  -i "%%f" >>log.txt  2>>err.txt)
+IF %%~zf GTR 2 "%isql%" -S %sourceServer%  -d %sourceDB% -r1 -U %usr% -P %pwd%  -i "%%f" >>log.txt  2>>err.txt)
 if not "%errorlevel%" == "0" set BatchExitCode=%errorlevel%
 ::pause
 
-for  %%f IN ("%rootDirectory%??.Domain.*.sql") do (echo %%f 
+for  %%f IN ("%rootDirectory%03.Domain\*.*.sql") do (echo %%f 
 echo ----- %%f ----- >>log.txt
 echo ----- %%f ----- >>err.txt
-IF %%~zf GTR 2 "%isql%" -S %sourceServer%  -d %sourceDB% -r1 -e  -i "%%f" >>log.txt  2>>err.txt)
+IF %%~zf GTR 2 "%isql%" -S %sourceServer%  -d %sourceDB% -r1 -U %usr% -P %pwd%  -i "%%f" >>log.txt  2>>err.txt)
 if not "%errorlevel%" == "0" set BatchExitCode=%errorlevel%
 ::pause
 
-for  %%f IN ("%rootDirectory%??.Request.*.sql") do (echo %%f 
+for  %%f IN ("%rootDirectory%50.Sample\*.*.sql") do (echo %%f 
 echo ----- %%f ----- >>log.txt
 echo ----- %%f ----- >>err.txt
-IF %%~zf GTR 2 "%isql%" -S %sourceServer%  -d %sourceDB% -r1 -e  -i "%%f" >>log.txt  2>>err.txt)
+IF %%~zf GTR 2 "%isql%" -S %sourceServer%  -d %sourceDB% -r1 -U %usr% -P %pwd%  -i "%%f" >>log.txt  2>>err.txt)
 if not "%errorlevel%" == "0" set BatchExitCode=%errorlevel%
 ::pause
  
