@@ -1,6 +1,7 @@
 create table [Domain].[Relation] 
 (
 	Id int identity(1,1) not null primary key,
+	IsDeleted int not null default 0, 
 	Code nvarchar(255) not null unique,
 	Name nvarchar(255) not null,
 
