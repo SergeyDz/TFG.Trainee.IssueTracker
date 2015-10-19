@@ -198,3 +198,4 @@ FakesAssemblies/
 *.opt
 Documents/Lessons/SQL/06.FullStack.DB/err.txt
 Documents/Lessons/SQL/06.FullStack.DB/err.txt
+*.txt
