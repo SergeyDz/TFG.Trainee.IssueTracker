@@ -11,8 +11,14 @@ create table [Request].[Party]
 	UpdatedOn datetime2 null,
 	UpdatedById int null, 
 
+	ClientId int null ,
+	MatterId int null,
+
 	foreign key (RelationId)	references [Domain].[Relation] (Id),
 	foreign key (PositionId)	references [Domain].[Position] (Id),
+
+	foreign key (ClientId)	references [Request].[Client] (Id),
+	foreign key (MatterId)	references [Request].[Matter] (Id),
 
 	foreign key (CreatedById)	references [Common].[User] (Id),
 	foreign key (UpdatedById)	references [Common].[User] (Id)
