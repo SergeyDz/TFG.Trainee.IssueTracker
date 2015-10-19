@@ -9,6 +9,7 @@ create table [Domain].[Department]
 	CreatedById int not null,
 	UpdatedOn datetime2 null,
 	UpdatedById int null, 
+	IsDeleted int not null default '0'
 	foreign key (CreatedById)	references [Common].[User] (Id),
 	foreign key (UpdatedById)	references [Common].[User] (Id)
 )
